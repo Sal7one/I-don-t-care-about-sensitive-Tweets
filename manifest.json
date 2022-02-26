@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Don't care about sensitive Tweets",
+  "version": "1.0.0",
+  "description": "Scrolls with you and clicks Show sebsutuve Tweet button ",
+  "content_scripts": [
+    {
+      "run_at":"document_end",
+      "js": [
+        "utils.js", 
+        "arrive.js",
+        "options.js",
+        "script.js"],
+      "matches": ["https://twitter.com/*"]
+    }
+  ],
+  "action": {
+    "default_popup": "ui.html"
+  },
+  "permissions": ["storage"],
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
