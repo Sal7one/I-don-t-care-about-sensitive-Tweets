@@ -1,6 +1,6 @@
 # Don't care about Twitter sensitive Tweets
 
-Shows everything
+Shows sensitive tweets without having to click the button 
 
 # Features
 
